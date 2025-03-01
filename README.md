@@ -86,7 +86,7 @@ Para las tres gráficas también se tienen factores que la afectan como la ubica
     print(f"SNR de David: {snr_David:.2f} dB")
     print(f"SNR de Sofia: {snr_Sofia:.2f} dB")
 
-###Resultados del SNR: 
+### Resultados del SNR: 
 
 Dayanna: -27.23 dB (mejor SNR)
 
