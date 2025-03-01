@@ -86,10 +86,12 @@ Para las tres gráficas también se tienen factores que la afectan como la ubica
     print(f"SNR de David: {snr_David:.2f} dB")
     print(f"SNR de Sofia: {snr_Sofia:.2f} dB")
 
-Resultados del SNR: 
+###Resultados del SNR: 
 
 Dayanna: -27.23 dB (mejor SNR)
+
 David: -32.32 dB (peor SNR)
+
 Sofía: -32.01 dB*
 
 Aquí se calcula la relación señal-ruido (SNR) para cada audio. El SNR es una métrica clave para evaluar la calidad de la señal, ya que indica cuánto más fuerte es la señal en comparación con el ruido ambiental. En este caso, los valores de SNR son negativos lo que indica que el ruido es más fuerte que la señal. Esto sugiere que el ruido ambiental es significativo y afecta la calidad de los audios; un valor más bajo indica una mayor proporción de ruido en comparación con la señal, guiandonos de esto y con los resultados de cada audio pudimos concluir que: 
@@ -155,4 +157,6 @@ En esta parte, se aplica el algoritmo de Análisis de Componentes Independientes
 
 Como análisis ante el mejoramiento del audio tomado por cada intégrate con el audio ICA nos reduce en gran cantidad el audio principalmente tomado ya que este nos elimina ruidos o señales irrelevantes dejando la parte más importante y al separarlos la señal se vuelve más corta y algo muy importante que se tiene que tener en cuanta es que al utilizar mal el audio ICA este puede quitar parte importante del audio original.
 
+## 8. Conclusión
 
+En este proyecto, se abordó el desafío de separar y analizar señales de audio provenientes de tres personas hablando simultáneamente en una sala. Se realizó un análisis temporal y espectral de las grabaciones, incluyendo la aplicación de la Transformada de Fourier para identificar las componentes de frecuencia de cada voz. Además, se implementó el algoritmo de Análisis de Componentes Independientes (ICA) con el objetivo de aislar las fuentes individuales a partir de las señales mezcladas. A lo largo del proceso, se calcularon métricas clave como la relación señal-ruido (SNR) para evaluar la calidad de las grabaciones y se generaron visualizaciones que permitieron comprender mejor el comportamiento de las señales en los dominios del tiempo y la frecuencia. Este trabajo sienta las bases para futuras mejoras en la separación de fuentes y el filtrado de ruido en entornos acústicos complejos.
